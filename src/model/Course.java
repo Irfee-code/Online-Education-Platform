@@ -31,4 +31,8 @@ abstract public class Course {
     public double getPrice() { return price; }
     public boolean isPublished() { return isPublished; }
 
+    public Instructor getInstructor() {
+        return instructor;
+    }
+
 }
