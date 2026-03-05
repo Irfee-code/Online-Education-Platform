@@ -14,12 +14,13 @@ public class LiveCourse extends Course {
                       String description,
                       Instructor instructor,
                       double price,
+                      boolean isPublished,
                       LocalDateTime startTime,
                       LocalDateTime endTime,
                       int maxSeats,
                       String meetingLink) {
 
-        super(id, title, description, instructor, price);
+        super(id, title, description, instructor, price, isPublished);
 
         this.startTime = startTime;
         this.endTime = endTime;
